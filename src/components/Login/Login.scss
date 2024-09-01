@@ -1,0 +1,24 @@
+.login-box {
+  box-sizing: border-box;
+  background: linear-gradient(#27292d, #27292d) padding-box,
+    linear-gradient(to bottom right, #969696, #343434) border-box;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 463px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  .register-link {
+    margin-top: 15px;
+    color: #7f8084;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+  }
+
+  .register-link > p > span {
+    color: #ffffff;
+    cursor: pointer;
+  }
+}

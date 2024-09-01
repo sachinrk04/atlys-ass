@@ -1,0 +1,30 @@
+.input-field {
+  margin-bottom: 15px;
+  label {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+  }
+
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #27292d;
+    color: #7f8084;
+    font-size: 14px;
+    border: 1.5px solid #35373b;
+  }
+
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #7f8084;
+  }
+}
